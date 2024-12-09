@@ -6,6 +6,7 @@ import PageNotFound from './pages/PageNotFound';
 import AppLayout from './pages/AppLayout';
 import Login from './pages/Login';
 import CityList from './components/CityList';
+import CountryList from './components/CountryList';
 import { useEffect, useState } from 'react';
 
 const API_URL = 'http://localhost:8000';
@@ -30,8 +31,6 @@ export default function App() {
     fetchCities();
   }, []);
 
-  console.log(cities);
-
   return (
     <BrowserRouter>
       <Routes>
@@ -44,7 +43,10 @@ export default function App() {
             path="cities"
             element={<CityList cities={cities} isLoading={isLoading} />}
           />
-          <Route path="countries" element={<p>LIST OF COUNTRIES URL</p>} />
+          <Route
+            path="countries"
+            element={<CountryList cities={cities} isLoading={isLoading} />}
+          />
           <Route path="form" element={<p>FORM</p>} />
         </Route>
         <Route path="login" element={<Login />} />

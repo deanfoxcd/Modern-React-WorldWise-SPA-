@@ -10,3 +10,7 @@
   align-content: start;
   gap: 1.6rem;
 }
+
+ul::-webkit-scrollbar {
+  display: none;
+}

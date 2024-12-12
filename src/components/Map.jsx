@@ -12,6 +12,7 @@ import { useEffect, useState } from 'react';
 import { useCities } from '../contexts/CitiesContext';
 import { useGeolocate } from '../hooks/useGeolocate';
 import Button from './Button';
+import { useUrlPosition } from '../hooks/useUrlPosition';
 
 export default function Map() {
   const { cities } = useCities();
@@ -22,10 +23,11 @@ export default function Map() {
     position: geoPosition,
     getPosition,
   } = useGeolocate();
+  const [mapLat, mapLng] = useUrlPosition();
 
-  const [searchParams, setSearchParams] = useSearchParams();
-  const mapLat = searchParams.get('lat');
-  const mapLng = searchParams.get('lng');
+  // const [searchParams, setSearchParams] = useSearchParams();
+  // const mapLat = searchParams.get('lat');
+  // const mapLng = searchParams.get('lng');
 
   useEffect(
     function () {

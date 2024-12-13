@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import {
   MapContainer,
   TileLayer,
@@ -7,12 +7,14 @@ import {
   useMap,
   useMapEvents,
 } from 'react-leaflet';
-import styles from './Map.module.css';
 import { useEffect, useState } from 'react';
 import { useCities } from '../contexts/CitiesContext';
 import { useGeolocate } from '../hooks/useGeolocate';
-import Button from './Button';
 import { useUrlPosition } from '../hooks/useUrlPosition';
+
+import styles from './Map.module.css';
+
+import Button from './Button';
 
 export default function Map() {
   const { cities } = useCities();
@@ -55,6 +57,7 @@ export default function Map() {
         zoom={6}
         scrollWheelZoom={true}
         className={styles.map}
+        key={mapPosition}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

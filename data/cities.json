@@ -13,18 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -37,112 +25,16 @@
       "id": 98443197
     },
     {
-      "cityName": "San Clemente",
+      "cityName": "Teruel",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2024-12-11T03:24:43.000Z",
-      "notes": "TEST",
+      "date": "2024-12-13T01:54:37.660Z",
+      "notes": "bvb",
       "position": {
-        "lat": "39.436192999314095",
-        "lng": "-2.482219090548557"
+        "lat": "40.34654412118006",
+        "lng": "-1.2071807177021168"
       },
       "id": 98443198
-    },
-    {
-      "cityName": "Gestalgar",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-14T03:27:26.000Z",
-      "notes": "TESt 2",
-      "position": {
-        "lat": "39.57182223734374",
-        "lng": "-0.8333605748229812"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Pozo Alcon",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-02T03:27:44.000Z",
-      "notes": "test 3",
-      "position": {
-        "lat": "37.82280243352759",
-        "lng": "-2.9434387644840814"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Belchite",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-13T00:50:39.312Z",
-      "notes": "",
-      "position": {
-        "lat": "41.36031866306708",
-        "lng": "-0.6794671133552478"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Lagunilla del Jubera",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-13T00:52:54.626Z",
-      "notes": "",
-      "position": {
-        "lat": "42.32606244456202",
-        "lng": "-2.327949786330921"
-      },
-      "id": 98443202
-    },
-    {
-      "cityName": "Ariza",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-13T00:55:03.317Z",
-      "notes": "",
-      "position": {
-        "lat": "41.3108238809182",
-        "lng": "-2.0641324238148266"
-      },
-      "id": 98443203
-    },
-    {
-      "cityName": "Ariza",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-13T01:01:47.457Z",
-      "notes": "",
-      "position": {
-        "lat": "41.3108238809182",
-        "lng": "-2.0641324238148266"
-      },
-      "id": 98443204
-    },
-    {
-      "cityName": "Lucena",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-13T01:03:15.360Z",
-      "notes": "",
-      "position": {
-        "lat": "37.38761749978395",
-        "lng": "-4.569403203024425"
-      },
-      "id": 98443205
-    },
-    {
-      "cityName": "Tunis",
-      "country": "Tunisia",
-      "emoji": "🇹🇳",
-      "date": "2024-12-13T01:04:55.027Z",
-      "notes": "ghjhj",
-      "position": {
-        "lat": "36.756490329505176",
-        "lng": "10.200962265208313"
-      },
-      "id": 98443206
     }
   ]
 }

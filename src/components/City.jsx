@@ -18,16 +18,20 @@ function City() {
   const { getCity, currentCity, isLoading } = useCities();
   const [cityLoading, setCityLoading] = useState(true);
 
-  useEffect(
-    function () {
-      const fetchData = async () => {
-        await getCity(id);
-        setCityLoading(false);
-      };
-      fetchData();
-    },
-    [getCity, id]
-  );
+  // useEffect(
+  //   function () {
+  //     const fetchData = async () => {
+  //       await getCity(id);
+  //       setCityLoading(false);
+  //     };
+  //     fetchData();
+  //   },
+  //   [getCity, id]
+  // );
+
+  useEffect(() => {
+    getCity(id);
+  }, [id]);
 
   // TEMP DATA
   // const currentCity = {
@@ -39,7 +43,8 @@ function City() {
 
   const { cityName, emoji, date, notes } = currentCity;
 
-  if (cityLoading) return <Spinner />;
+  // if (cityLoading) return <Spinner />;
+  if (isLoading) return <Spinner />;
 
   return (
     <div className={styles.city}>

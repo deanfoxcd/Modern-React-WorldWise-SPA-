@@ -1,7 +1,8 @@
-import Spinner from "./Spinner";
-import styles from "./SpinnerFullPage.module.css";
+import Spinner from './Spinner';
+import styles from './SpinnerFullPage.module.css';
 
 function SpinnerFullPage() {
+  console.log('Spinner loaded');
   return (
     <div className={styles.spinnerFullpage}>
       <Spinner />
